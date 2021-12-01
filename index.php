@@ -59,12 +59,13 @@
 
 ?>
 
+<!DOCTYPE html>
 <html>
-    <head>Blackjack</head>
-    <!--css link-->
+    <title><head>Blackjack</head></title>
+    <link rel="stylesheet" href="style.css">
 </html>
 
 <!-- BODY -->
 <body>
-    text
+    <p>text</p>
 </body>
