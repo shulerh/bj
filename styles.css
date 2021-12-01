@@ -1,6 +1,18 @@
 :root {
 	--green: #004225;
-    --white: #fbfbff;
+	--white: #fbfbff;
 	--light: #f6d365;
 	--dark: #ccad49;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+	color: var(--green);
+	background-color: var(--white);
+}
+
+.button {
+    background-color: #004225;
+    color: #f6d365;
+	border: none;
 }
