@@ -2,17 +2,55 @@
 	--green: #004225;
 	--white: #fbfbff;
 	--light: #f6d365;
-	--dark: #ccad49;
+	--dark: #f2c023;
+	--dgreen: #00351e;
 }
 
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: var(--green);
 	background-color: var(--white);
 }
 
+h1 {
+	font-size: 6vw;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h1#bj {
+	text-decoration: none;
+}
+
+h1.escd {
+	font-size: 3vw !important;
+	color: #000 !important;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
 .button {
-    background-color: #004225;
-    color: #f6d365;
+    background-color: var(--green);
+    color: var(--light);
+	font-size: 5vw;
+	font-weight: 700;
+	width: 100%;
+	height: 10vw;
 	border: none;
+	border-radius: 2vw;
+}
+
+.button:focus {
+	color: var(--dark);
+	background-color: var(--dgreen);
+}
+
+.button:hover {
+	color: var(--dark);
 }
